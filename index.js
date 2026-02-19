@@ -1,7 +1,7 @@
 //Personal Information
 const firstName = "Austin";
 const lastName = "Eachus";
-const age = 18;
+const age = 19;
 const isStudent = true;
 
 // Using template literals
@@ -10,3 +10,7 @@ const studentStatus = `Am I a student? ${isStudent}`;
 // Print to console
 console.log(introduction);
 console.log(studentStatus);
+// Add this to the bottom of index.js
+const currentYear = 2026;
+const birthYear = currentYear - age;
+console.log(`I was born in ${birthYear}.`);
